@@ -1,4 +1,4 @@
-CAMEL
+CAMEL : Czochralski Apparatus for Modeling Efficient Lattice growth
 =====
 
 Fork "CAMEL" to create a new MOOSE-based application.
