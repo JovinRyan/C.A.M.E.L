@@ -1,0 +1,7 @@
+[Tests]
+  [test]
+    type = Exodiff
+    input = grain_growth.i
+    exodiff = grain_growth_out.e
+  []
+[]
