@@ -1,0 +1,8 @@
+[Tests]
+  [test]
+    type = Exodiff
+    input = 'shomate_heat_conduction_test.i'
+    exodiff = 'shomate_heat_conduction_test_out.e'
+    requirement = 'System shall solve a heat conduction problem with the material object ShomateHeatConductionMaterial.'
+  []
+[]
