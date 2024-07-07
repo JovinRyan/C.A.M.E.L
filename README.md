@@ -1,7 +1,7 @@
 CAMEL : Czochralski Apparatus for Modeling Efficient Lattice growth
 =====
 
-<video src = "/renders/Si_circular_heating_render.mp4" controls> </video>
+<video src = "renders/Si_circular_heating_render.mp4" controls> </video>
 
 Fork "CAMEL" to create a new MOOSE-based application.
 
