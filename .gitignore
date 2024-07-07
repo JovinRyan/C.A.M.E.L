@@ -82,7 +82,6 @@ temp_print_trace.*
 .depend
 *.png
 *.svg
-*.gif
 *.tif
 *.jpg
 *.tiff
