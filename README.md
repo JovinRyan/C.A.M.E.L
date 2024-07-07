@@ -21,7 +21,12 @@ Moose Material Object created for heat conduction simulations involving variable
 </p>
 
 ## To Do ##
-
+<p>
+  <ol>
+    <li>CFD simulation for Si melt ($T > 1687$ K)</li>
+    <li>Single crystal growth for Si using Phase-Field physics module</li>
+  </ol>
+</p>
 <hr>
 Fork "CAMEL" to create a new MOOSE-based application.
 
