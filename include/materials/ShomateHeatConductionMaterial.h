@@ -1,6 +1,9 @@
 #pragma once
 
 #include "Material.h"
+#include "MooseTypes.h"
+
+class Function;
 
 /**
  * Material with specific heat capacity defined by Shomate equation.
@@ -28,6 +31,7 @@ private:
 
   MaterialProperty<Real> & _thermal_conductivity;
   MaterialProperty<Real> & _thermal_conductivity_dT;
+  const Function * const _thermal_conductivity_temperature_function;
 
   MaterialProperty<Real> & _specific_heat;
 };
