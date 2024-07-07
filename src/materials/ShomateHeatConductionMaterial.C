@@ -32,7 +32,8 @@ ShomateHeatConductionMaterial::ShomateHeatConductionMaterial(const InputParamete
     _d(getParam<Real>("d")),
     _e(getParam<Real>("e")),
 
-    _my_thermal_conductivity(getParam<Real>("thermal_conductivity")),
+    _my_thermal_conductivity(
+        isParamValid("thermal_conductivity") ? getParam<Real>("thermal_conductivity") : 0),
 
     _specific_heat(declareProperty<Real>("specific_heat")),
 
