@@ -45,6 +45,9 @@ ShomateHeatConductionMaterial::ShomateHeatConductionMaterial(const InputParamete
             ? &getFunction("thermal_conductivity_temperature_function")
             : nullptr)
 {
+  if (isParamValid("thermal_conductivity") && _thermal_conductivity_temperature_function)
+    mooseError(
+        "Cannot define both thermal conductivity and thermal conductivity temperature function");
 }
 
 void
