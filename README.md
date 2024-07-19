@@ -16,7 +16,7 @@ This project is made possible by the development of [The Multiphysics Object-Ori
 </p>
 Moose Material Object created for heat conduction simulations involving variable heat capacity based on the <b>Shomate Equation</b>. 
 <p>
-  $$C_p = A + B \cdot T + C \cdot T^2 + D \cdot T^3 + E \cdot 1/T^2 $$
+  $$C_p = A + B \cdot T + C \cdot T^2 + D \cdot T^3 + E \cdot 1/T^2 $$ <br>
   The rendered simulation above calculates the temperature gradient for a solid block of Si with $C_p$ calculated using the shomate equation and thermal conductivity ($k$) calculated using a piecewise linear function with experimentally measured data. 
 </p>
 
